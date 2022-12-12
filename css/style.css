@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+* {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100px;
+    background-color: #c7c5af;
+}
+.header-logo__img {
+    margin-left: 150px;
+    width: 150px;
+    height: 130px;
+}
+.header-search__input {
+    border: 0;
+    border-radius: 2px;
+    background-color: #a4a382;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 400px;
+    height: 30px;
+}
+.header-social__media {
+    border-radius: 4px;
+    background-color:#a4a382;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 30px;
+    margin-left: 510px;
+    margin-top: 50px;
+}
+.header-svg {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family:'Raleway', sans-serif;
+    margin-right: 40px;
+    color: rgb(80, 82, 61);
+}
+li {
+    display: inline;
+}
+.nav {
+    padding-top: 5px;
+    background-color: #a4a382;
+    height: 50px;
+    line-height: 50px; 
+}
+.nav-bg {
+    background-color: white;
+    height: 45px;
+    width: 80%;
+    margin: auto;
+    border-radius: 2px;
+}
+.main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main-banner__text {
+    position: absolute;
+    margin:50px 200px 500px;
+    color: white;
+    text-align: left;
+    font-weight: 800;
+    font-family:'Raleway', sans-serif;
+    font-size: 80px;
+}
+.main-banner__h3 {
+    width: 700px;
+    color: white;
+    text-align: left;
+    font-weight: 800;
+    font-family:'Raleway', sans-serif;
+    font-size: 20px;
+}
+.main-banner__img {
+    height: 400px;
+}
+.span-about {
+    color: #434235;
+    font-family:'Raleway', sans-serif;
+    font-size: 100px;
+}
+.main-h3 {
+    color: #818066;
+    padding-left: 200px;
+    text-align: left;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 50px;
+}
+.main-text {
+    color: white;
+    background-color: #434235;
+    font-family:'Raleway', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.main-cards {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.img-card {
+    width: 300px;
+    height: 300px;
+}
+.cards-item {
+    margin-top: 10px;
+    width: 300px;
+    height: 400px;
+}
+.cards-item__h2 {
+    color: #50523d;
+}
+.cards-item__h4 {
+    color: #818066;
+}
+.cards-item__span {
+    display: inline-block;
+    color: #434235;
+}
+.cards-item__span:hover {
+    border-bottom: #434235 solid 1px;
+    color: #434235;
+}
+.clients-card {
+    position: relative;
+    top:26%;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    border: #434235 solid 1px;
+}
+.clients-h1 {
+   color: #50523d;
+   font-style:'Raleway', sans-serif;
+   font-size: 100px;
+}
+.clients-h3 {
+    color: #434235;
+    font-style:'Raleway', sans-serif;
+    font-size: 30px;
+}
+.clients {
+    margin-top: 200px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    height: 600px;
+    background-color: #a4a382;
+}
+.svg-clients {
+    width: 100px;
+    height: 100px;
+}
+.clients-line {
+    position: relative;
+    top: 50%;
+    width: 200px;
+    height: 1px;
+    background-color: #434235;
+}
+.clients-p {
+    margin-top: -5px;
+    margin-left: 47%;
+    width: 10px;
+    height: 10px;
+    border-radius:100px;
+    background-color: #434235;
+}
+.advent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.advent-img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    padding: 100px 120px 50px 120px;
+}
+
+.advent-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    color: #50523d;
+    font-style:'Raleway', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.footer {
+    background-color: #50523d;
+    font-style:'Raleway', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 50px;
+}
